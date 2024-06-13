@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir -p web_dynamic/static
+mkdir -p web_dynamic/templates
+cp -r web_flask/static/* web_dynamic/static/
+cp -r web_flask/templates/100-hbnb.html web_dynamic/templates/
+cp web_flask/__init__.py web_dynamic/
+cp web_flask/100-hbnb.py web_dynamic/
+
